@@ -26,7 +26,7 @@ namespace ZoologicoLogin {
             /// </summary>
             /// <returns>Cadena "Administrador"</returns>
             virtual String^ ObtenerTipoPerfil() override {
-                return "Administrador";
+                return L"Administrador";
             }
 
             /// <summary>
@@ -34,12 +34,12 @@ namespace ZoologicoLogin {
             /// </summary>
             /// <returns>Cadena con la descripción de permisos del administrador</returns>
             virtual String^ ObtenerPermisos() override {
-                return "- Gestión completa del sistema\n"
-                       "- Administración de usuarios\n"
-                       "- Configuración del zoológico\n"
-                       "- Reportes y estadísticas\n"
-                       "- Gestión de animales\n"
-                       "- Control de inventario";
+                return L"- Gestión completa del sistema\n"
+                        "- Administración de usuarios\n"
+                        "- Configuración del zoológico\n"
+                        "- Reportes y estadísticas\n"
+                        "- Gestión de animales\n"
+                        "- Control de inventario";
             }
 
             /// <summary>

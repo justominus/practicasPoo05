@@ -26,7 +26,7 @@ namespace ZoologicoLogin {
             /// </summary>
             /// <returns>Cadena "Cajero"</returns>
             virtual String^ ObtenerTipoPerfil() override {
-                return "Cajero";
+                return L"Cajero";
             }
 
             /// <summary>
@@ -34,11 +34,11 @@ namespace ZoologicoLogin {
             /// </summary>
             /// <returns>Cadena con la descripción de permisos del cajero</returns>
             virtual String^ ObtenerPermisos() override {
-                return "- Venta de boletos\n"
-                       "- Registro de visitantes\n"
-                       "- Consulta de precios\n"
-                       "- Cierre de caja\n"
-                       "- Emisión de recibos";
+                return L"- Venta de boletos\n"
+                        "- Registro de visitantes\n"
+                        "- Consulta de precios\n"
+                        "- Cierre de caja\n"
+                        "- Emisión de recibos";
             }
 
             /// <summary>
